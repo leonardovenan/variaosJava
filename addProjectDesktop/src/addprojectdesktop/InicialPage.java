@@ -4,11 +4,14 @@ import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.EventQueue;
 import java.awt.Frame;
+import java.awt.GridBagConstraints;
+import java.awt.Insets;
 import java.awt.event.ActionListener;
 
 import javax.swing.Icon;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
+import javax.swing.JComponent;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.WindowConstants;
@@ -48,7 +51,7 @@ public class InicialPage extends JFrame {
 			}
 		});
 	}
-
+	
 	/**
 	 * Create the frame.
 	 */
@@ -79,7 +82,7 @@ public class InicialPage extends JFrame {
 				dispose();
 			}
 		});
-		bt1.setIcon(new ImageIcon("C:/Users/nogf000533/Desktop/imagens proj/dados.jpg"));
+		bt1.setIcon(new ImageIcon("C:/Users/leonardo.correia/eclipse-workspace/imagens proj/dados.jpg"));
 		bt1.setBounds(288, 200, 120, 120);
 		getContentPane().add(bt1);
 				
@@ -98,7 +101,7 @@ public class InicialPage extends JFrame {
 				dispose();
 			}
 		});
-		bt2.setIcon(new ImageIcon("C:/Users/nogf000533/Desktop/imagens proj/Contratos.png"));
+		bt2.setIcon(new ImageIcon("C:/Users/leonardo.correia/eclipse-workspace/imagens proj/Contratos.png"));
 		bt2.setBounds(963, 200, 110, 110);
 		getContentPane().add(bt2);
 		
@@ -117,7 +120,7 @@ public class InicialPage extends JFrame {
 				dispose();
 			}
 		});
-		bt3.setIcon(new ImageIcon("C:/Users/nogf000533/Desktop/imagens proj/logo-inss-final.png"));
+		bt3.setIcon(new ImageIcon("C:/Users/leonardo.correia/eclipse-workspace/imagens proj/logo-inss-final.png"));
 		bt3.setBounds(539, 429, 261, 82);
 		getContentPane().add(bt3);					
 		
@@ -140,4 +143,5 @@ public class InicialPage extends JFrame {
 		contentPane.add(panel);
 		
 	}
+	
 }
